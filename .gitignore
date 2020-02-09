@@ -1,0 +1,30 @@
+
+# ENV
+## vagrant
+.vagrant
+.vagrant.d
+.php-version
+
+# composer
+vendor/
+composer.lock
+
+# Framework
+## var directorys
+/var/*
+src/web/*/*/logs/*
+
+# IDE ane editor
+## Eclipse
+.project
+.settings
+.buildpath
+
+# etc
+.svn
+.gitignore
+!/.gitignore
+.git
+/log/*
+!/log/.gitkeep
+.phpunit.result.cache

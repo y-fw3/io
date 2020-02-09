@@ -1,0 +1,36 @@
+{
+    "name" : "fw3/io",
+    "description" : "Flywheel3 framework: io",
+    "type" : "application",
+    "homepage" : "https://ickx.jp",
+    "license" : "MIT",
+    "authors" : [{
+            "name" : "akira wakaba",
+            "homepage" : "https://ickx.jp",
+            "role" : "lead developer"
+        }
+    ],
+    "config" : {
+        "autoloader-suffix" : "IckxFw3Io"
+    },
+    "autoload" : {
+        "psr-4" : {
+            "fw3\\io\\" : "./src/"
+        }
+    },
+    "autoload-dev" : {
+        "psr-4" : {
+            "fw3\\tests\\io\\" : "./tests/"
+        }
+    },
+    "keywords" : [
+        "fw3 Flywheel3 testbed"
+    ],
+    "require" : {
+        "php" : "^7.4",
+        "ext-mbstring" : "*"
+    },
+    "require-dev" : {
+        "phpunit/phpunit" : "~8.3"
+    }
+}
